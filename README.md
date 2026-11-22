@@ -40,7 +40,7 @@ The app also includes in-app notifications, live updates using server-sent event
 Use a Windows, macOS, or Linux computer with **Node.js 22.12+**, npm, Git, and a modern browser. Internet access is needed for dependencies and the first embedded MongoDB download. The embedded database also requires an operating system supported by MongoDB. Phones and tablets can open the hosted demo; this setup runs the server on a computer.
 
 ```sh
-git clone https://github.com/abhigyan6/staffsync-showcase.git
+git clone https://github.com/popstar2251/staffsync-hr.git
 cd staffsync-showcase
 npm ci
 npm run dev
@@ -131,8 +131,7 @@ Express serves the built frontend and API from one origin. The included `render.
 
 The blueprint generates `JWT_SECRET` and enables secure cookies. Production startup does not seed or reset records. The free service can sleep, and uploaded photos use temporary storage. Never put real employee data or database credentials in the public repository.
 
-## Credits and copyright
+## Credits
 
-© 2026 Abhigyan Dwivedi. All rights reserved for original StaffSync code and branding. This repository is public for viewing and local evaluation under [LICENSE](LICENSE); no open-source license is granted. Republishing or submitting the project as someone else's original work is not permitted. See [NOTICE.md](NOTICE.md) and [AUTHORSHIP.md](AUTHORSHIP.md). GitHub's applicable viewing and forking rights and rights provided by law remain unaffected.
 
 Open-source libraries, Phosphor icons, and the DM Sans and Instrument Serif fonts retain their respective licenses and copyrights.
